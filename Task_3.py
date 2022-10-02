@@ -4,8 +4,9 @@ import math
 import os
 os.system('cls' if os.name == 'nt' else 'clear')
 k = int(input("Введите число "))
-list = []
+list1 = []
 for i in range(1,k+1):
     x = math.pow((1+1/i),i)
-    list.append(x)
-print (list)
+    list1.append(x)
+print (list1)
+print (sum(list1))
